@@ -1,0 +1,56 @@
+.container {
+  max-width: 1250px;
+  min-height: 150px;
+  background-color: rgb(235, 235, 224);
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.toggle {
+  padding: 10px 22px;
+  background-color: darkcyan;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box {
+  min-width: 300px;
+  height: auto;
+}
+
+.childBox {
+  border: 1px solid gray;
+  width: inherit;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #fcfcfc;
+  padding: 20px 50px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  color: rgb(112, 110, 110);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.delete {
+  font-size: 18px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  padding: 10px 0;
+  margin-top: 20px;
+}
